@@ -1,0 +1,22 @@
+{
+	"name": "alikdex/yii2-crawler-detect",
+	"description": "Yii2 extension for CrawlerDetect library",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","detect","crawler"],
+	"license": "MIT license",
+	"authors": [
+		{
+			"name": "Alik Dexor",
+			"email": "alikdex@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"alikdex\\crawlerdetect\\": "0.0.1"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"jaybizzle/crawler-detect": "1.*"
+	}
+}
