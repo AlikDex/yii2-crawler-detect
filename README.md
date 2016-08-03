@@ -23,9 +23,9 @@ And then add it to your components configuration in Yii2:
 Some basic detections are available in Yii's `params`:
 
 ~~~php
-var_dump(Yii::$app->params['crawlerdetect']);
+var_dump(Yii::$app->params['isCrawler']);
 
-bool(false)
+// bool(false)
 ~~~
 
 You can also use it from anywhere in your code, calling Crawler-Detect's API:
