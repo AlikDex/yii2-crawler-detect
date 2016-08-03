@@ -3,7 +3,7 @@
 namespace alikdex\crawlerdetect;
 
 use Yii;
-use Jaybizzle\CrawlerDetect\CrawlerDetect;
+use Jaybizzle\CrawlerDetect\CrawlerDetect as CrawlerLib;
 
 class CrawlerDetect extends \yii\base\Component
 {
@@ -30,7 +30,7 @@ class CrawlerDetect extends \yii\base\Component
 	}
 
 	public function init() {
-		$this->_crawlerDetect = new CrawlerDetect();
+		$this->_crawlerDetect = new CrawlerLib();
 		parent::init();
 
 		$this->_isCrawler = $this->_crawlerDetect->isCrawler();
