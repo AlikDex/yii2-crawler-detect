@@ -33,7 +33,7 @@ class CrawlerDetect extends \yii\base\Component
 		$this->_crawlerDetect = new CrawlerDetect();
 		parent::init();
 
-    $this->_isCrawler = $this->_crawlerDetect->isCrawler();
+		$this->_isCrawler = $this->_crawlerDetect->isCrawler();
 
 		if ($this->setParams)
 			Yii::$app->params['isCrawler'] = $this->_isCrawler;
