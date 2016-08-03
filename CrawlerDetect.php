@@ -41,6 +41,7 @@ class CrawlerDetect extends \yii\base\Component
 
 	/**
 	 * Check seo bot.
+	 * @return bool
 	 */
 	public function getIsCrawler()
 	{
