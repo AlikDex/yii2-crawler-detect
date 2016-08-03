@@ -31,7 +31,7 @@ var_dump(Yii::$app->params['isCrawler']);
 You can also use it from anywhere in your code, calling Crawler-Detect's API:
 
 ~~~php
-\Yii::$app->crawlerdetect->isCrawler;
+\Yii::$app->crawlerdetect->isCrawler();
 
 /*Check all available methods here: https://github.com/JayBizzle/Crawler-Detect */
 ~~~
