@@ -12,7 +12,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"alikdex\\crawlerdetect\\": "0.0.1"
+			"alikdex\\crawlerdetect\\": ""
 		}
 	},
 	"require": {
