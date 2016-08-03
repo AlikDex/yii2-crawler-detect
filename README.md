@@ -15,7 +15,7 @@ And then add it to your components configuration in Yii2:
 'components' => [
 	'crawlerdetect' => [
 		'class' => 'alikdex\crawlerdetect\CrawlerDetect',
-		'setParams' => true, // bootstrap initialize requred
+		'setParams' => true, // optional, bootstrap initialize requred
 	],
 ]
 ~~~
